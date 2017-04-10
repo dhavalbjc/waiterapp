@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6c09228ff931eb30b68dd27fe34ed90d978b6892">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-crash-9.2.1_454abcf000fabfbe50a14ac759e45cad9cee8a50.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="89ab748a6c0ab6ac1d3671f2356d6181e8108bc5">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-9.2.1_157cbac0d163470f105ca336cb9f72fb7c2ae24e.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.2.1_6a61c9ae1c954b91a160126ed211dd07ae7ccf20.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4c2b01baa64ba25f8dbdf7f7f828bc5664dab55e">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-9.2.1_a9bdcf3517c500bde9887861bed7c9440e2dfae2.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.2.1_cccd92aa975075e0fad2bc4e10139a5aeb655d0c.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a65d98c9409f271d3209f4cc1f7d8e0391665fa5">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.2.1_f867d361b541081475fc5da9c1bff06847b907d0.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8aada8a0e9e9b3ecdda5e80f17c6a51a468e302a">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-9.2.1_e663d6b5588d7f60fe810f13ae62f8e13638385c.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d064f813cd835f17853e39221b247cf6a997a2db">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-9.2.1_0b333df2223b7fb475efe5ed47b1f494eb2ca93b.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="35a01d7cb4ff6b5976777bf5827fd8f206fb8757">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-module-9.2.1_19d0d0ead4ab0837c39e500a7c28b198b1f802f1.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_d94c663282ffbe9bffc7e65717c211c9c807eae4.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0765979e802b1669c90dc36076559461d5eb6ad1">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-9.2.1_618a86268767a8b3a4ef4ad4fdd16dd78fbcc974.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="428c9bac95b2f72921224e289553a04bea61cda5">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-9.2.1_a3d45b97fdbf0af95f763795055abbf9459756b1.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="def5530cb13311617fc8f962e2a90225bb6904e2">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-9.2.1_aaaaa6e4e368c634aedb4e5d15339e98c6358ffc.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ee409046028e5657a2a69edaa2eba00d6511a74c">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-common-9.2.1_017241ec79109da64ddecf4dfa4e4fad6f4fd9c3.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd1907a2e855eeb2be8aa3486f3d4d4f1c8b22af">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-9.2.1_fb36a97ae9291e6334ef4366999792314d0e56a0.jar" />
+    </item>
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_6ededcc9b39f46fbcdd6efbd1a4d51bb6afd2a15.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="07c569a77f437c5c71eac8b1b636a50bebb69a93">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-9.2.1_0295a155b09574137d8bed83e426961bd22cd93c.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2506c5893e125e2f9cfc522378e893620c21b109">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-9.2.1_03c56400c4c0655226eedabb8007029415ad42a1.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="310ef01419435979cc82847cf085799a8d00e7e9">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.2.1_0b1c761b4bd128836ed1bd0238141b9fef1d37b9.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e1bec33f1ec5367e25676638b430b9d585f3dbec">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-9.2.1_cc483859876d67656c04fc2eb7a1aeaed9bc13ef.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="48917c60ea81213ea39cbd7123996a5401106dc3">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-9.2.1_fb32ac3a682892efb8312a49e89ab8a885f796a2.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.2.1_42cf6f615452cb13f07a091afac59aebbeb9eace.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0979debb5b4d955ddc0e80bb192f4f00c2f91750">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-places-9.2.1_0f06a1a13f8377e0e2fbdfe5dfe256e2d0850fa6.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_80172b58f9cf6317efcb70b4c4090dfc8cc01b4c.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bbd51be332bace144b3d16501ec0af379c3c8750">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.2.1_140a1ec01728fe6d46813e2617deec436ea61fdf.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.2.1_9bbbc9d961d26ba1659957f072a728ed7b58f017.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.2.1_0b50127445ba9b4b1eac15c5c06469c8dad8e48a.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="05d2e01f33fb2097b51fce3f938dc37a75fe2d6b">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-9.2.1_4af1cc69e03a61945c842363e6eefbdbdffb0ead.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.2.1_c31f08918831a00becf21a3abc562f7a27208fe9.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\libs\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.4_432feb3b515cb920a320dcaeb91b78626058f1f1.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e719de687ac45141de3dd613907860a495580af0">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-9.2.1_a12a2d7a5b835690782d865d7ba760d2e30b9e20.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f06a0705d7b8b9d18b00d056fe0e07bec75514e6">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-9.2.1_d8197534f207f3e32eacc66eeb8692aa989d473b.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ac78f93fc89c497a65f9d9a352cd405996d2f65a">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-9.2.1_6b80a398781a981007487589e139bf3cc726e464.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="edf9a22ebf25281619265079aec8f5d433da1a5c">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.2.1_c3666d6c5ce05502bfc87d0f796cac08eb3257cc.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="36e2b438f9b0d68fb2482c8f389e249e32840cff">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-storage-common-9.2.1_ca1910c840eb1c6c957491346632aa1c2ce1dadc.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4b515e6e269bfe848f5b43ac09bce54d6617d4fd">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-9.2.1_909469fc54520da2e664f454502da7cc76a89a99.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9f2282b9fc24f24c69665032dede1bc7201cf006">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-framework-9.2.1_891e12bcacc1d96c131a70b8e44b26fed4ee707a.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f3b0ff905873c91ab64addba30cc1e77bed34c4d">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-9.2.1_86249daf58af20e0e78c7fc8d2da403c9285d648.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b24c1a80d8ccaecee7b8b80209b4e273dc22b14d">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-9.2.1_f01f690bc353438c1e5c7cc2db92b5aca91b6f20.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_0c2a68edfa2dcebe51ccaad8c59755989e311e79.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="081ced8ab77e606b6743c27cfe93dc450447b046">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-9.2.1_e8eb020f2d6e47fa8499e78ab69470e9bbf32a77.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\libs\btsdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8f6b84f6fbcfbf895952b8e0c007ec5d0fce9bc9">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\btsdk_73bfcfc3ce4d90321a336fdbbdcc91002e60ccfd.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ee19e33a798d11a5cf309a40155b8223fadcdeea">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-9.2.1_40d0c0f2df83d7799b66530d009d4d9295295bf4.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="152cba5ca28fd4a5191a8577a0fa96d61122041e">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-9.2.1_6d78884b0d1a2bf3d0c214e555a4076da8bfb45f.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1141496362c8876f0da4b645fbaf22c0a3618372">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-impl-9.2.1_6f7580b17b1397726bc80d29bea6d9f0ee61e155.jar" />
+    </item>
+    <item
+        jar="C:\Users\Dhaval\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.2\1f96456ca233dec780aa224bff076d8e8bca3908\gson-2.2.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1f96456ca233dec780aa224bff076d8e8bca3908">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\gson-2.2.2_548674931ce3a435e0c5df34e212be125bdd3e05.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_a29a028ee68ce1553e885f016f1f5923e0d18cd7.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-contextmanager\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccc963cafe59ce185c49f47baff7eedcb8589bdf">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-contextmanager-9.2.1_46f06da708ad924f6ed578da556b7e47cd2e4d04.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6d2f508d1a9fa0fbe1653595e484800c08afb42c">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.2.1_b65fdafe9dbb1e6cae71990befd8d72ea49fe794.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="05a2710d284c03087013a667a324c9e2aba5bc91">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-9.2.1_db5c7751bef54f3d9b716bf3d56163e28e09240c.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\libs\gcm.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\gcm_885d2d947aa81b8e523f59f95d2f68e67fa7500d.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_bb4d6190eaf5e8151d1dad43387909b1700c893d.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.2.1_bf5f536d1a0db45a5952ffe295479347c633fa2d.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="357a8702c49044417d4856861c8f435e7c74ef09">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-9.2.1_bbef5738a80fd2840f9d5e27d8ab678ebddfe827.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_fc4f0db7420392fcb85724b92ebb50f3c3300fcd.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-23.0.0_dfaf9c2e318c722db1f5b30693071bcd3184264a.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7bb417e9ac8645285342935679e75d371b58b62b">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-config-9.2.1_56d282b34a1f9f35e57041c054495826b720502b.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="77e2e4803396fa79009ace04d9be84184aafcc31">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tagmanager-api-9.2.1_2b13949a3e092e393163274868a81555132472cd.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3a42c5696fa39930d39770f7e5552a9c965fbe09">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.2.1_e91a287563b01a05ebba26bf1031e22b50cf021d.jar" />
+    </item>
+    <item
+        jar="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="90eeba67a669f8fb24db0f821ef81703fe7a02bc">
+        <dex dex="E:\Astics Data\CliqueChatAppAndroid\MyWaiterApp\WaiterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-9.2.1_97803b23016938aaa89de8399bca27db7d0dadce.jar" />
+    </item>
+
+</items>
