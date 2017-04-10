@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/E:\\Astics Data\\CliqueChatAppAndroid\\MyWaiterApp\\WaiterApp\\app\\build\\intermediates\\res\\merged\\release\\raw\\gtm_analytics",
+        "source": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/E:\\Astics Data\\CliqueChatAppAndroid\\MyWaiterApp\\WaiterApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.3.0\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/app/build/intermediates/res/merged/release/raw/gtm_analytics",
+        "source": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/res/raw/gtm_analytics"
+    }
+]

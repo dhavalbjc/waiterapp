@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ln"
+    android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:addStatesFromChildren="true"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+     >
+   <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:orientation="vertical"
+		android:paddingBottom="5sp"
+		android:paddingLeft="10sp"
+		android:paddingRight="5sp"
+    android:paddingTop="5sp"
+     >
+
+      
+
+<com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/grid_TableName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#505050"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        />
+<com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/grid_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:textColor="#505050"
+         android:textSize="12sp"
+        />
+    <!--  #505050 android:textColor="#747474" android:textColor="#969696" -->
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="0.5sp"
+    android:layout_marginBottom="5sp"
+     android:layout_marginTop="2sp"
+    android:background="@android:color/darker_gray"/>
+    <RelativeLayout
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_alignParentLeft="true"
+	android:orientation="vertical"
+	>
+    <in.app.waiter.NestedListView
+            android:id="@+id/cartitems_listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent" /> 
+	</RelativeLayout>
+    
+    <com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/sc_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10sp"
+        android:text="second course"
+        android:textColor="#747474"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <View
+        android:id="@+id/sc_header_btm"
+    android:layout_width="fill_parent"
+    android:layout_height="0.5sp"
+    android:layout_marginTop="2sp"    
+    android:background="@android:color/darker_gray"/>
+    <RelativeLayout
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_alignParentLeft="true"
+	android:orientation="vertical"
+	>
+    <in.app.waiter.NestedListView
+            android:id="@+id/cartitems_sndlistView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent" /> 
+	</RelativeLayout>
+     
+       <com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/tc_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10sp"
+        android:text="third course"
+        android:textColor="#747474"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <View
+        android:id="@+id/tc_header_btm"
+    android:layout_width="fill_parent"
+    android:layout_height="0.5sp"
+    android:layout_marginTop="2sp"  
+      
+    android:background="@android:color/darker_gray"/>
+    <RelativeLayout
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_alignParentLeft="true"
+	android:orientation="vertical"
+	>
+    <in.app.waiter.NestedListView
+            android:id="@+id/cartitems_TrdlistView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent" /> 
+	</RelativeLayout>
+    
+     <View
+         android:id="@+id/view_last"
+    android:layout_width="fill_parent"
+    android:layout_height="0.5sp"
+    android:layout_marginTop="5sp"
+    
+    android:background="@android:color/darker_gray"/>
+     <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="2sp"
+    android:layout_marginLeft="2sp"
+    android:layout_marginRight="2sp"
+    android:layout_marginTop="5sp"
+     >
+     
+     <com.etsy.android.grid.util.DynamicHeightTextView
+         android:id="@+id/user"
+         android:layout_width="80sp"
+         android:layout_height="wrap_content"
+         android:layout_weight="0.4"
+         android:singleLine="true"
+         android:text="user"
+         android:textColor="#747474"
+         android:textSize="14.5sp"
+          />
+
+      <com.etsy.android.grid.util.DynamicHeightTextView
+          android:id="@+id/grid_total"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+           android:layout_gravity="right"
+          android:layout_weight="0.6"
+          android:text="Total"
+          android:textColor="#747474"
+          android:textSize="15sp" />
+
+      </RelativeLayout>
+   
+</LinearLayout>
+  
+ <View
+     android:id="@+id/payment_view"
+    android:layout_width="fill_parent"
+    android:layout_height="0.5sp"
+    android:layout_marginBottom="0sp"
+    android:layout_marginLeft="8sp"
+     android:layout_marginRight="8sp"
+      android:layout_marginTop="2sp"
+    android:background="@android:color/darker_gray"/>
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     
+    android:orientation="vertical">
+<View
+   android:id="@+id/view_make"
+    android:layout_width="fill_parent"
+    android:layout_height="0.5sp"
+    android:layout_marginBottom="0sp"
+    android:layout_marginLeft="8sp"
+     android:layout_marginRight="8sp"
+      android:layout_marginTop="2sp"
+      android:background="@android:color/darker_gray"
+    android:visibility="gone"/>
+    <RelativeLayout
+        android:id="@+id/rel_make_status"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center" 
+    android:visibility="gone">
+    <Button
+         android:id="@+id/btn_make_status"
+        android:layout_width="match_parent"
+       
+      android:layout_height="match_parent"
+      android:background="@drawable/make_ready"
+        android:minHeight="0sp"
+        android:minWidth="1sp"
+         
+        android:text="MAKE READY"
+        android:textColor="#747474"
+    android:textSize="13.4sp"
+    android:textStyle="bold" />
+    
+      
+
+      </RelativeLayout>
+      </LinearLayout>
+    
+<LinearLayout
+    android:id="@+id/payment_lay"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4sp" >
+
+    <Button
+        android:id="@+id/btn_print"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+       
+       android:layout_marginRight="2sp"
+      android:layout_weight="1"
+       android:background="@drawable/mybutton"
+        android:minHeight="0sp"
+          android:minWidth="1sp"
+       android:padding="0sp"
+        
+  android:text="Print"
+    android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+      android:layout_marginLeft="2sp"
+      android:layout_weight="1"
+        android:background="@drawable/mybutton"
+        android:minHeight="0sp"
+          android:minWidth="1sp"
+        android:text="Pay"
+    android:textSize="13sp" />
+
+
+</LinearLayout>
+
+
+ 
+</LinearLayout>

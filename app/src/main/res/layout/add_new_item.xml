@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+     android:gravity="center_vertical|center_horizontal"
+      
+        android:orientation="vertical"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:background="#3F92D2"
+        android:paddingLeft="40dip"
+        android:paddingRight="40dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/add_new_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="Add new item"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+          <LinearLayout
+       android:id="@+id/dialog_Rel_add_new_item"
+      android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+        android:paddingBottom="13dp"
+         android:paddingLeft="10dp"
+         android:paddingTop="13dp"
+		 >
+       
+       
+        <EditText
+               android:id="@+id/et_new_item"
+                 android:layout_width="0dp"
+        android:layout_height="wrap_content"
+               android:layout_weight=".80"
+               android:background="#FFFFFF"
+                android:ems="10"
+               android:hint="name"
+               android:textColor="#505050">
+
+               <requestFocus />
+           </EditText>
+            <EditText
+               android:id="@+id/et_new_itemprice"
+                 android:layout_width="0dp"
+        android:layout_height="wrap_content"
+               android:layout_weight=".20"
+               android:background="#FFFFFF"
+                android:ems="10"
+               android:hint="0.00"
+               android:inputType="numberDecimal"
+               android:textColor="#505050">
+
+               
+           </EditText>
+         </LinearLayout>
+         
+           <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   >
+
+    <RelativeLayout
+        android:id="@+id/Rel_Cancel_item_btn"
+          android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".50"
+        android:background="@drawable/btn_back_selector"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+         android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+             android:textColor="#505050"
+            android:textSize="20dp"
+       
+           />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Rel_add_item_btn"
+        android:layout_width="0dp"
+          android:layout_height="match_parent"
+        android:layout_weight=".50"
+         android:background="@drawable/btn_back_selector"
+          android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+       
+        android:paddingTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="Add"
+             android:textColor="#505050"
+            android:textSize="20dp"
+             />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+    
+
+        <!-- 
+    
+    <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#454545"/>
+
+     -->
+
+           
+   
+</LinearLayout>

@@ -1,0 +1,341 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/orderScroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<LinearLayout
+   
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+     >
+ 
+            <LinearLayout
+                
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <Button
+        android:id="@+id/buttonShowDropDown"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+         android:layout_marginBottom="8dp"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/newbackground"
+          
+android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+       android:text="Today"
+        android:textColor="#505050" />
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"
+          android:background="@drawable/newbackground"
+         android:orientation="vertical">
+    <TextView
+       
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+       
+        android:layout_margin="10dp"
+        android:gravity="center"
+       android:text="Revenues"
+       
+android:textColor="#505050"
+        android:textSize="20dp" />
+     <TextView
+       android:id="@+id/tvrevenuesTotal"
+       
+android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+       
+        android:gravity="center"
+        android:text="0.00"
+       android:textColor="#505050"
+        android:textSize="20dp" />
+    </LinearLayout>
+    
+     <LinearLayout
+         android:id="@id/lin2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="8dp"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"
+         android:background="@drawable/card_background_selector"
+         android:orientation="vertical" >
+
+    <TextView
+       
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+       
+        android:layout_margin="10dp"
+        android:gravity="center"
+       android:text="Items by user"
+       
+android:textColor="#505050"
+        android:textSize="20sp" />
+    <LinearLayout
+       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".50"
+        android:background="@drawable/item_back_selector"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="5dp"
+android:paddingTop="12dp">
+	    <TextView
+	        
+	        
+android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:alpha="0.5"
+	        android:singleLine="true"
+	        android:text="Users"
+	        android:textColor="#505050"
+	         android:textSize="20dp"/>
+	        <!--  android:textAppearance="?android:attr/textAppearanceLarge"-->
+	        
+
+	   
+
+	</RelativeLayout>
+	<RelativeLayout
+	  
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		 android:layout_weight=".50"
+		android:background="@drawable/item_back_selector"
+	android:orientation="vertical"
+		
+		android:paddingBottom="12dp"
+		android:paddingRight="15dp"
+		android:paddingTop="12dp"
+		
+		>
+
+	     <TextView
+	         
+android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_alignParentRight="true"
+	         android:layout_centerVertical="true"
+	         android:alpha="0.5"
+	         android:singleLine="true"
+	         	        android:text="Revenues"
+	         android:textColor="#505050"
+	         android:textSize="20dp" />
+
+	     </RelativeLayout>
+	     </LinearLayout>
+	       <RelativeLayout
+
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_alignParentLeft="true"
+	 
+            
+	android:orientation="vertical"
+	
+	>
+
+    <ListView
+            android:id="@+id/users_listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent" />
+    
+
+</RelativeLayout>
+    </LinearLayout>
+   
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" >
+
+    <RelativeLayout
+	    
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight=".28"
+		 android:background="@drawable/card_background_selector"
+		android:orientation="vertical"
+		android:paddingBottom="12dp"
+		android:paddingLeft="15dp"
+		android:paddingRight="5dp"
+		android:paddingTop="12dp"
+		>
+
+	
+
+	    <TextView
+	        android:id="@+id/tvOrder"
+	        
+android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:singleLine="true"
+	        android:text="Orders" 
+	        android:textColor="#505050"
+	         android:textSize="20dp"/>
+	        <!--  android:textAppearance="?android:attr/textAppearanceLarge"-->
+	        
+
+	   
+
+	</RelativeLayout>
+	<RelativeLayout
+	  
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight=".72"
+		 android:background="@drawable/card_background_selector"
+		
+		android:orientation="vertical"
+		android:paddingBottom="12dp"
+		android:paddingRight="15dp"
+		android:paddingTop="12dp"
+		>
+
+	     <TextView
+	         
+android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_alignParentRight="true"
+	         android:layout_centerVertical="true"
+	         android:singleLine="true"
+	         android:text="Table"
+	         android:textColor="#505050"
+	         android:textSize="20dp" />
+
+	     </RelativeLayout>
+	     </LinearLayout>
+ <LinearLayout
+        android:id="@+id/lin_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+       android:background="#DCE1E3"
+         android:orientation="vertical">
+     <RelativeLayout
+
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_alignParentLeft="true"
+	 
+            
+	android:background="#DCE1E3"
+	android:orientation="vertical"
+	>
+
+    <ListView
+            android:id="@+id/report_listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent" />
+    
+
+</RelativeLayout>
+     <LinearLayout
+android:id="@+id/linearOrder2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp" >
+
+    <RelativeLayout
+	    
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/card_background_selector"
+		 
+		android:orientation="vertical"
+		android:paddingBottom="12dp"
+		android:paddingLeft="15dp"
+		android:paddingRight="5dp"
+		android:paddingTop="12dp"
+		>
+
+	
+
+	    <TextView
+	       
+	        android:id="@+id/tv_items"
+android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:singleLine="true"
+	        android:text="Items" 
+	        android:textColor="#505050"
+	         android:textSize="20dp"/>
+	        <!--  android:textAppearance="?android:attr/textAppearanceLarge"-->
+	        
+
+	   
+
+	</RelativeLayout>
+	
+	     </LinearLayout>
+    <RelativeLayout
+
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_alignParentLeft="true"
+	 
+            
+	android:background="#DCE1E3"
+	android:orientation="vertical"
+	>
+
+    <ListView
+            android:id="@+id/Items_listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent" />
+    
+
+</RelativeLayout>
+       </LinearLayout>
+
+        </LinearLayout>
+ </LinearLayout>
+ 
+</LinearLayout>
+ </ScrollView> 

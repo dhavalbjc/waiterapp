@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    
+    <RelativeLayout
+         android:id="@+id/Rel_group_click"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".85"
+        android:background="@drawable/newbackground"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/tv_categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text line 1"
+            android:textColor="#505050"
+            android:textSize="20dp"
+            />
+        
+    </RelativeLayout>
+
+</LinearLayout>

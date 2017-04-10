@@ -1,0 +1,45 @@
+<!--<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCE1E3">
+
+</android.support.v4.view.ViewPager>-->
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent"
+	android:background="#DCE1E3"
+	
+	android:orientation="vertical">
+	<FrameLayout
+	android:id="@+id/lable_nointernet"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"	
+		android:background="#626262"
+		android:gravity="center"
+	android:paddingBottom="5dp"
+	android:paddingTop="5dp"
+		>
+		 <TextView
+	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	       android:layout_centerVertical="true"
+	        android:layout_gravity="center_horizontal"
+	        android:singleLine="true"
+	         android:text="No Internet connection"
+	         android:textColor="#FFFFFF"
+	        
+	        android:textSize="18dp"
+	         />   
+   
+</FrameLayout>
+<android.support.v4.view.ViewPager
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCE1E3">
+
+</android.support.v4.view.ViewPager>
+</LinearLayout>

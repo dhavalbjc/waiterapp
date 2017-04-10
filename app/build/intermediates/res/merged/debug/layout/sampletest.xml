@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:android1="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" >
+ <Button
+         android1:id="@+id/search_bt"
+         android1:layout_width="wrap_content"
+         android1:layout_height="wrap_content"
+         android1:background="@drawable/button_selector_green"
+         android1:text="1xvsdvsdvsdvsd"
+         
+         android1:textColor="@drawable/button_text_color_green" />
+ <RelativeLayout
+     android1:id="@+id/rel_add_staff"
+     android1:layout_width="wrap_content"
+     android1:layout_height="wrap_content"
+     android1:layout_alignParentLeft="true"
+     android1:layout_alignParentTop="true"
+     android1:layout_marginLeft="83dp"
+     android1:background="@drawable/staff_card_background_selector"
+     android1:orientation="vertical"
+     android1:paddingBottom="15dp"
+     android1:paddingLeft="15dp"
+     android1:paddingTop="15dp" >
+
+    
+ </RelativeLayout>
+
+</RelativeLayout>

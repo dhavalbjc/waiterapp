@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/Astics Waiterapp/WaiterApp/app/build/intermediates/res/merged/debug/layout-v17/mr_media_route_list_item.xml",
+        "source": "/media/astics/F088C5DC88C5A208/Astics Waiterapp/WaiterApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/layout-v17/mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/app/build/intermediates/res/merged/debug/layout-v17/mr_media_route_list_item.xml",
+        "source": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/layout-v17/mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/test project/2-jan-17/WaiterApp/app/build/intermediates/res/merged/debug/layout-v17/mr_media_route_list_item.xml",
+        "source": "/media/astics/F088C5DC88C5A208/test project/2-jan-17/WaiterApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/layout-v17/mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/E:\\Astics Data\\CliqueChatAppAndroid\\MyWaiterApp\\WaiterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17\\mr_media_route_list_item.xml",
+        "source": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/E:\\Astics Data\\CliqueChatAppAndroid\\MyWaiterApp\\WaiterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\layout-v17\\mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "/home/dhaval/WaiterApp/app/build/intermediates/res/merged/debug/layout-v17/mr_media_route_list_item.xml",
+        "source": "/home/dhaval/WaiterApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/layout-v17/mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/MyWaiterapp-project/2-jan-17/WaiterApp/app/build/intermediates/res/merged/debug/layout-v17/mr_media_route_list_item.xml",
+        "source": "/media/astics/F088C5DC88C5A208/MyWaiterapp-project/2-jan-17/WaiterApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/layout-v17/mr_media_route_list_item.xml"
+    }
+]

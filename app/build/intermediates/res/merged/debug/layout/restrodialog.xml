@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:background="#ffffff"
+      
+        android:gravity="center_vertical|center_horizontal"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F92D2"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/tv_titlefordialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="name"
+             android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+          <RelativeLayout
+      
+      android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+        android:paddingTop="13dp"
+         android:paddingBottom="13dp"
+         android:background="#ffffff"
+		 >
+       
+       
+        <EditText
+               android:id="@+id/restrodialog_editname"
+               
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="#ffffff"
+               android:ems="10" >
+
+               <requestFocus />
+           </EditText>
+         </RelativeLayout>
+         
+           <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+          android:id="@+id/restroRel_Cancel_btn"
+        android:layout_height="wrap_content"
+        android:layout_weight=".50"
+        android:background="@drawable/btn_back_selector"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+         android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/tv_pricecancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+             android:textColor="#505050"
+            android:textSize="20dp"
+        
+           />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/restroRel_save_btn"
+        android:layout_width="0dp"
+          android:background="@drawable/btn_back_selector"
+        android:layout_height="match_parent"
+         android:layout_weight=".50"
+          android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal" 
+       
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="save"
+             android:textColor="#505050"
+            android:textSize="20dp"
+         />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+    
+
+        <!-- 
+    
+    <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#454545"/>
+
+     -->
+
+           
+   
+</LinearLayout>

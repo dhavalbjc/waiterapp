@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/test project/2-jan-17/WaiterApp/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/media/astics/F088C5DC88C5A208/test project/2-jan-17/WaiterApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/home/dhaval/WaiterApp/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/home/dhaval/WaiterApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/Astics Waiterapp/WaiterApp/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/media/astics/F088C5DC88C5A208/Astics Waiterapp/WaiterApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/E:\\Astics Data\\CliqueChatAppAndroid\\MyWaiterApp\\WaiterApp\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/E:\\Astics Data\\CliqueChatAppAndroid\\MyWaiterApp\\WaiterApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.3.0\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/MyWaiterapp-project/2-jan-17/WaiterApp/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/media/astics/F088C5DC88C5A208/MyWaiterapp-project/2-jan-17/WaiterApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/res/raw/gtm_analytics"
+    }
+]

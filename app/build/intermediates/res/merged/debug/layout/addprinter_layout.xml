@@ -1,0 +1,277 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#DCE1E3">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     android:background="#DCE1E3"
+    >
+    
+     
+    <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+              android:id="@+id/restrolinearname"
+              android:background="@drawable/item_back_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="12dp"
+              android:layout_marginBottom="12dp"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+           android:textColor="#505050"
+            
+             android:text="protocol"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/printer_txtprotocol"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+     android:layout_marginTop="12dp"
+              android:layout_marginBottom="12dp"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+             android:ems="15"
+             
+            android:text="ESC POS"
+             android:alpha="0.7"
+              android:gravity="right"
+             android:layout_alignParentRight="true"
+             android:textSize="18dp" />
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:id="@+id/restrolineardescription"
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+               android:layout_marginTop="12dp"
+              android:layout_marginBottom="12dp"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+            android:textColor="#505050"
+             
+             android:text="connection"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/addprintertxtconnection"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="12dp"
+              android:layout_marginBottom="12dp"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"            
+             android:ems="15"
+            android:text="bluetooth"
+             android:alpha="0.7"
+              android:gravity="right"
+             android:layout_alignParentRight="true"
+             android:textSize="18dp" />
+     </LinearLayout>
+    <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:id="@+id/searchmac"
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+               android:layout_marginTop="12dp"
+              android:layout_marginBottom="12dp"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+            android:textColor="#505050"
+             
+             android:text="mac"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/addprintertxtmac"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+               android:layout_marginTop="12dp"
+              android:layout_marginBottom="12dp"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              
+             android:ems="15"
+            
+             android:alpha="0.7"
+              android:gravity="right"
+             android:layout_alignParentRight="true"
+             android:textSize="18dp" />
+     </LinearLayout>
+         <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:id="@+id/restrolinearwebsite"
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+              android:layout_marginBottom="12dp"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+             android:text="paper width"
+             android:textColor="#505050"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/addprintertxtpaperwidth"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+              android:layout_marginBottom="12dp"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              
+             android:ems="15"
+             android:text="2 inches (58mm)"
+             android:alpha="0.7"
+              android:gravity="right"
+             android:layout_alignParentRight="true"
+             android:textSize="18dp" />
+     </LinearLayout>
+       
+    <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="12dp"
+              android:layout_marginBottom="12dp"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+           android:textColor="#505050"
+             
+             android:text="name"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/addprintertxtname"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+       android:layout_marginTop="12dp"
+              android:layout_marginBottom="12dp"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              
+             android:ems="15"
+             
+             android:alpha="0.7"
+              android:gravity="right"
+             android:layout_alignParentRight="true"
+             android:textSize="18dp" />
+     </LinearLayout>
+       
+    <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:id="@+id/addprinterlinearPrintorder"
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:layout_marginTop="12dp"
+              android:layout_marginBottom="12dp"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+           android:textColor="#505050"
+          
+             android:text="Print orders"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/addprintertxtprintorder"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+           android:layout_marginTop="12dp"
+              android:layout_marginBottom="12dp"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              
+             android:ems="15"
+             android:text="no"
+             android:alpha="0.7"
+              android:gravity="right"
+             android:layout_alignParentRight="true"
+             android:textSize="18dp" />
+     </LinearLayout>
+     <LinearLayout
+       
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+       android:orientation="vertical"
+      android:paddingLeft="8dp"
+		
+		android:paddingBottom="0dp"
+		android:paddingRight="8dp"
+		>
+
+ <Button
+     android:id="@+id/btnprintsample"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:background="@drawable/sqrbtn_selector"
+     android:paddingTop="1dp"
+     android:text="Print sample"
+     android:textColor="@drawable/button_text_color_green"
+     android:textSize="18dip"
+     android:textStyle="bold" />
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

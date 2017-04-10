@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DCE1E3"
+     >
+    
+    <RelativeLayout
+       android:id="@+id/Rel_New_order"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+      
+       android:orientation="vertical"
+      android:paddingLeft="8dp"
+       android:paddingRight="8dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="0dp"
+		android:background="#DCE1E3">
+
+ <Button
+          android:id="@+id/btn_New_order"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         
+          android:layout_centerHorizontal="true"         
+          android:background="@drawable/newbackground"
+          android:text="New Order"
+          android:textSize="18dip"
+           android:textStyle="bold"
+            android:textColor="#505050" />
+</RelativeLayout>
+ <RelativeLayout
+       android:id="@+id/Rel_New_order_Gridview"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+        
+		
+       android:orientation="vertical"
+     
+       >
+<com.etsy.android.grid.StaggeredGridView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/grid_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:item_margin="8dp"
+    app:column_count="2" />
+<TextView
+    android:id="@+id/emptytext"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerInParent="true"
+    android:layout_margin="80dp"
+    android:gravity="center"
+    android:alpha="0.6"
+    android:visibility="gone"
+    android:text="Tap New Order to add Order"
+   android:textColor="#505050"
+    android:textSize="16dp" />
+</RelativeLayout>
+</LinearLayout>

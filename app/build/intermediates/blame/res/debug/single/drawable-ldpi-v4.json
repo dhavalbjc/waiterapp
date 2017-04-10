@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/test project/2-jan-17/WaiterApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/media/astics/F088C5DC88C5A208/test project/2-jan-17/WaiterApp/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/MyWaiterapp-project/2-jan-17/WaiterApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/media/astics/F088C5DC88C5A208/MyWaiterapp-project/2-jan-17/WaiterApp/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/E:\\Astics Data\\CliqueChatAppAndroid\\MyWaiterApp\\WaiterApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/E:\\Astics Data\\CliqueChatAppAndroid\\MyWaiterApp\\WaiterApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.2.1\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/E:\\Astics Data\\CliqueChatAppAndroid\\MyWaiterApp\\WaiterApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/E:\\Astics Data\\CliqueChatAppAndroid\\MyWaiterApp\\WaiterApp\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/home/dhaval/WaiterApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/home/dhaval/WaiterApp/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/astics/F088C5DC88C5A208/Astics Waiterapp/WaiterApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/media/astics/F088C5DC88C5A208/Astics Waiterapp/WaiterApp/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    }
+]

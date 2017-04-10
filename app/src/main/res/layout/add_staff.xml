@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+     
+      
+        android:orientation="vertical"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1e90ff"
+        android:paddingLeft="40dip"
+        android:paddingRight="40dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/add_new_staff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="Add staff member"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+ <RelativeLayout
+       android:id="@+id/dialog_Rel_staff_name"
+      android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+         android:paddingTop="10dip"
+		 >
+              
+        <EditText
+               android:id="@+id/et_staffname"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@null"
+                android:ems="10"
+               android:hint="name...
+               "
+               android:textColor="#505050">
+
+               <requestFocus />
+           </EditText>
+         </RelativeLayout>
+          <RelativeLayout
+       android:id="@+id/dialog_Rel_add_new_staff"
+      android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+         android:paddingTop="10dip"
+		 >
+       
+       
+        <EditText
+               android:id="@+id/et_staffemail"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@null"
+                android:ems="10"
+               android:hint="email...
+               "
+               android:textColor="#505050">
+
+           </EditText>
+         </RelativeLayout>
+         
+         
+           <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   >
+
+    <RelativeLayout
+        android:id="@+id/Rel_Cancel_staff_btn"
+          android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".50"
+        android:background="@drawable/btn_back_selector"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+         android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/tv_staff_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+              android:textColor="#505050"
+            android:textSize="18dp"
+            android:textStyle="bold" 
+           />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Rel_add_staff_btn"
+        android:layout_width="0dp"
+          android:layout_height="match_parent"
+        android:layout_weight=".50"
+         android:background="@drawable/btn_back_selector"
+          android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+       
+        android:paddingTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_add_staff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="Add"
+              android:textColor="#505050"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+    
+
+        <!-- 
+    
+    <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#454545"/>
+
+     -->
+
+           
+   
+</LinearLayout>

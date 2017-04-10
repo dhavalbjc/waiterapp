@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    	android:background="#DCE1E3">
+<LinearLayout
+
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent"
+	android:background="#DCE1E3"
+	android:orientation="vertical"
+	android:paddingBottom="15dp">
+ <FrameLayout
+	
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:layout_marginLeft="8dp"
+	android:layout_marginRight="8dp"
+	android:layout_marginTop="8dp"
+	android:background="@drawable/item_back"
+	android:paddingBottom="10dp"
+	android:paddingLeft="15dp"
+	android:paddingRight="15dp"
+		android:paddingTop="10dp"
+	>
+	   <TextView
+	        android:id="@+id/bill_table"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_gravity="center"
+	        android:singleLine="true"
+	         android:text="Table"
+	        android:textSize="20dp"
+	         />
+   
+</FrameLayout>
+    <RelativeLayout
+
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:layout_alignParentLeft="true"
+	android:background="#DCE1E3"
+	android:orientation="vertical">
+
+    <ListView
+		 android:id="@+id/bill_listview"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:cacheColorHint="@android:color/transparent"
+		android:divider="@null"
+		android:listSelector="@android:color/transparent"
+		 />
+</RelativeLayout>
+<LinearLayout
+	
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	 android:orientation="horizontal"
+	android:paddingLeft="8dp"
+	android:paddingRight="8dp"
+	>
+
+	<RelativeLayout
+	    android:id="@+id/Rel_item_select"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight=".28"
+		 android:background="@drawable/item_back"
+		android:orientation="vertical"
+		android:paddingBottom="12dp"
+		android:paddingLeft="15dp"
+		android:paddingRight="5dp"
+		android:paddingTop="12dp"
+		>
+
+	
+
+	    <TextView
+	        android:id="@+id/item_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:singleLine="true"
+	        android:text="Total "
+	         android:textSize="20dp"/>
+	        <!--  android:textAppearance="?android:attr/textAppearanceLarge"-->
+	        
+
+	   
+
+	</RelativeLayout>
+	<RelativeLayout
+	    android:id="@+id/Rel_price_select"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight=".72"
+		 android:background="@drawable/item_back"
+		
+		android:orientation="vertical"
+		android:paddingBottom="12dp"
+		android:paddingRight="15dp"
+		android:paddingTop="12dp"
+		>
+	     <TextView
+	        android:id="@+id/bill_total"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:singleLine="true"
+	         android:text="0.0"
+	        android:textSize="20dp"
+	         />
+	     </RelativeLayout>
+
+</LinearLayout>
+    <FrameLayout
+	
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_margin="8dp"
+	android:background="@drawable/item_back"
+	android:paddingBottom="10dp"
+	android:paddingLeft="15dp"
+	android:paddingRight="15dp"
+		android:paddingTop="10dp"
+	>
+	   <Button
+          android:id="@+id/btn_print"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         
+          android:layout_centerHorizontal="true"
+         android:background="@drawable/button_selector_green"
+          android:text="Print"
+          android:textColor="@drawable/button_text_color_green"
+          android:textSize="16dip"
+          android:textStyle="bold" />
+   
+</FrameLayout>
+</LinearLayout>
+</ScrollView>
+<!-- 
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#e2e4fe">
+
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@android:color/transparent"
+		android:cacheColorHint="@android:color/transparent"
+		android:divider="@null"
+		
+         >
+    </ExpandableListView>
+
+</LinearLayout>
+ -->

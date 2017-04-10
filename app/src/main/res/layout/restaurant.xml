@@ -1,0 +1,670 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#DCE1E3"
+     android:orientation="vertical"
+    >
+    <LinearLayout 
+        android:id="@+id/Rel_group_click"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+             android:layout_marginTop="10dp"
+             android:background="@drawable/newbackground"
+    android:orientation="horizontal"
+ >
+    <RelativeLayout
+         
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".85"
+       
+        android:orientation="horizontal"
+      
+        >
+
+        <TextView
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Service charge"
+            android:textColor="#505050"
+            android:textSize="20dp"
+            
+
+             android:textStyle="bold"
+            />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+      
+        android:layout_weight=".15"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+       <ImageView
+       
+           android:layout_width="50dp" 
+		
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:alpha="0.5"
+      
+        android:src="@drawable/add_item" />
+
+    </RelativeLayout>
+
+    </LinearLayout>
+     <LinearLayout 
+        android:id="@+id/Rel_group_click2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+              android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+ >
+    <RelativeLayout
+         
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".85"
+        android:background="@drawable/newbackground"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:paddingTop="12dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Service charge"
+            android:textColor="#505050"
+            
+
+            android:textSize="20dp"
+             android:textStyle="bold"
+            />
+        
+    </RelativeLayout>   
+
+    </LinearLayout>
+       <LinearLayout 
+        android:id="@+id/Rel_group_click3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+               android:background="@drawable/newbackground"
+    android:orientation="horizontal"
+ >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".80"
+       
+        android:orientation="horizontal"
+        
+        
+        
+      >
+
+        <TextView
+            android:id="@+id/restro_service_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            
+android:text="Service charge"
+            android:textColor="#505050"
+             android:textSize="20dp"
+            />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight=".20"
+      
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/restro_service_qty"        
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            
+android:singleLine="true"
+            android:text="0.00"
+             android:textColor="#505050"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="5dp"
+              android:background="@drawable/item_back_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+              android:layout_marginTop="15dp"
+             android:text="Info"
+
+             android:textColor="#505050"
+             android:textSize="20dp"
+             android:textStyle="bold"
+                />
+
+        
+     </LinearLayout>
+    <LinearLayout
+         android:id="@+id/restrolinearname"
+         android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:background="@drawable/item_back_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+           
+android:layout_marginTop="15dp"
+             android:text="Name"
+             android:textColor="#505050"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/restrotxtname"
+             
+android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+              
+             android:alpha="0.8"
+             
+            
+             android:ems="15"
+              android:gravity="right"
+             android:textColor="#505050"
+             android:textSize="16dp" />
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/restrolineardescription"
+         android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+            
+android:layout_marginTop="15dp"
+             android:text="Description"
+             android:textColor="#505050"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/restxtdescription"
+             
+android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+             android:alpha="0.8"
+            
+             android:ems="15"
+              android:gravity="right"
+             android:textColor="#505050"
+             android:textSize="16dp" />
+     </LinearLayout>
+    <LinearLayout
+         android:id="@+id/restrolinearphone"
+         android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+            
+android:layout_marginTop="15dp"
+             android:text="Phone"
+             android:textColor="#505050"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/restrotxtphone"
+             
+android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+              
+             android:alpha="0.8"
+             
+             android:ems="15"
+              android:gravity="right"
+             android:textColor="#505050"
+             android:textSize="16dp" />
+     </LinearLayout>
+    <LinearLayout
+         android:id="@+id/restrolinearwebsite"
+         android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+           
+android:layout_marginTop="15dp"
+             android:text="Website"
+             android:textColor="#505050"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/restrortxtwebsite"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              
+android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+              
+             android:alpha="0.8"
+             
+             android:ems="15"
+              android:gravity="right"
+             android:textColor="#505050"
+             android:textSize="16dp" />
+     </LinearLayout>
+<LinearLayout
+         android:id="@+id/restrolinearemail"
+         android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+             android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+            
+             android:text="Email"
+             android:textColor="#505050"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/restrortxtemail"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginBottom="15dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+              
+android:layout_marginTop="15dp"
+             android:alpha="0.8"
+             
+             android:ems="15"
+              android:gravity="right"
+             android:textColor="#505050"
+             android:textSize="16dp" />
+     </LinearLayout>
+ 
+     <LinearLayout 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="5dp"
+             android:background="@drawable/item_back_selector"
+             
+              android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+               android:text="Location"
+              android:textColor="#505050"
+             android:textSize="20dp"
+             android:textStyle="bold"
+
+                >
+            </TextView>
+
+           
+        </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/restrolinearstreet"
+         android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+            
+              android:background="@drawable/item_back_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+             android:text="street"
+             
+android:textColor="#505050"
+             
+             android:textSize="20dp" 
+            />
+
+         <TextView
+             android:id="@+id/restrotxtstreet"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+              android:layout_marginBottom="15dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+              
+android:layout_marginTop="15dp"
+             android:alpha="0.8"
+             android:ems="15"
+             
+              android:gravity="right"
+             android:textColor="#505050"
+             android:textSize="16dp" />
+     </LinearLayout>
+        <LinearLayout
+         android:id="@+id/restrolinearcivic"
+         android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+            
+android:layout_marginTop="15dp"
+             android:text="civic number"
+             android:textColor="#505050"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/restrotxtcivic"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginBottom="15dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+              
+android:layout_marginTop="15dp"
+             android:alpha="0.8"
+             
+             android:ems="15"
+              android:gravity="right"
+             android:textColor="#505050"
+             android:textSize="16dp" />
+     </LinearLayout>
+       
+     <LinearLayout
+         android:id="@+id/restrolinearzipcode"
+         android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             
+android:layout_marginTop="15dp"
+             android:text="zipcode"
+             android:textColor="#505050"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/restrotxtzipcode"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginBottom="15dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+              
+android:layout_marginTop="15dp"
+             android:alpha="0.8"
+             
+             android:ems="15"
+              android:gravity="right"
+             android:textColor="#505050"
+             android:textSize="16dp" />
+     </LinearLayout>
+        <LinearLayout
+         android:id="@+id/restrolinearcity"
+         android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+            
+android:layout_marginTop="15dp"
+             android:text="city"
+             android:textColor="#505050"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/restrotxtcity"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginBottom="15dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+              
+android:layout_marginTop="15dp"
+             android:alpha="0.8"
+             
+             android:ems="15"
+              android:gravity="right"
+             android:textColor="#505050"
+             android:textSize="16dp" />
+     </LinearLayout>
+        <LinearLayout
+         android:id="@+id/restrolinearprovince"
+         android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+             android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+             
+             android:text="province"
+             android:textColor="#505050"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/Restrotxtprovince"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginBottom="15dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+              
+android:layout_marginTop="15dp"
+             android:alpha="0.8"
+             
+             android:ems="15"
+              android:gravity="right"
+             android:textColor="#505050"
+             android:textSize="16dp" />
+     </LinearLayout>
+        <LinearLayout
+         android:id="@+id/restrolinearcountry"
+         android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+             android:layout_marginBottom="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+              android:background="@drawable/card_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+           
+android:layout_marginTop="15dp"
+             android:text="country"
+             android:textColor="#505050"
+             android:textSize="20dp"
+                />
+
+         <TextView
+             android:id="@+id/restrotxtcountry"
+             
+android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+              
+             android:alpha="0.8"
+             
+             android:ems="15"
+              android:gravity="right"
+             android:textColor="#505050"
+             android:textSize="16dp" />
+     </LinearLayout>
+       
+
+
+</LinearLayout>
+</ScrollView>

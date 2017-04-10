@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:paddingBottom="5dp"
+       android:background="#DCE1E3">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:id="@+id/fram_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DCE1E3"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="7dp" >
+
+        <RelativeLayout
+            android:id="@+id/rel_is_table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_selector"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="15dp"
+                android:text="Table"
+                android:textSize="20dp"
+                android:textColor="#505050"
+                />
+
+            <TextView
+                android:id="@+id/tv_tablename"
+                android:textColor="#505050"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:paddingRight="15dp"               
+                android:text="Table num"
+                 android:textSize="20dp"
+                
+                />
+        </RelativeLayout>
+    </FrameLayout>
+<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DCE1E3"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+       
+         >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="#DCE1E3"
+        android:orientation="vertical" >
+    </RelativeLayout>
+<LinearLayout
+        android:id="@+id/lin_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+         
+       
+         android:background="@drawable/newbackground">
+
+        <RelativeLayout
+            android:id="@+id/Rel_Item_plus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".10"
+            
+            android:orientation="vertical"
+           android:gravity="center"
+           >
+
+            <ImageView
+        android:id="@+id/menu_add_button"
+           android:layout_width="25dp"		
+        android:layout_height="25dp"
+       
+     android:layout_centerInParent="true"
+        android:src="@drawable/search" />
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Rel_no_item_click"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".90"
+               android:paddingLeft="9dp"
+           
+            
+            android:orientation="horizontal"
+           >
+
+  <in.app.waiter.CustomAutoCompleteView
+        android:id="@+id/myautocomplete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="2"
+        android:background="@null"
+        android:textSize="20dp"
+        android:textColor="#505050"
+        
+         android:hint="search item..." 
+                 
+         >
+    </in.app.waiter.CustomAutoCompleteView>
+           
+        </RelativeLayout>
+        
+    </LinearLayout>
+    </FrameLayout>
+   
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       
+         android:background="#DCE1E3">
+    <RelativeLayout
+
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	 
+            
+	android:layout_alignParentLeft="true"
+	android:background="#DCE1E3">
+
+    <ExpandableListView
+        android:id="@+id/lv_cartitems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent" >
+
+    </ExpandableListView>
+   
+    
+
+</RelativeLayout>
+
+ <RelativeLayout
+           android:id="@+id/is_addNewItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+		 android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:background="@drawable/card_background_selector" >
+
+     
+      <TextView
+            android:id="@+id/textView2"
+            android:textColor="#505050"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"           
+           android:layout_alignParentLeft="true"
+            android:text="+"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dip"
+            android:alpha="0.5"
+           
+           
+             />
+
+        <TextView
+            android:id="@+id/textView1"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/textView2"
+            android:alpha="0.5"
+            android:gravity="center_vertical"
+            android:text="Add New Item"
+            android:textSize="18dip" />
+        
+    </RelativeLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:id="@+id/Payment_option"
+    android:background="#DCE1E3"
+    
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+     android:layout_marginRight="8dp"
+		>
+ <LinearLayout
+ android:layout_width="0dp"
+   android:id="@+id/btn_print"
+        android:layout_weight="1"  
+           android:background="@drawable/newbackground"
+    android:layout_height="match_parent"
+     android:layout_marginRight="4dp"
+    android:orientation="vertical">
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/printer4" 
+         android:alpha="0.9"
+         android:layout_gravity="center"/>
+
+    <TextView
+      
+        android:layout_width="wrap_content"
+           android:layout_gravity="center"
+      
+       android:layout_height="match_parent"
+     android:alpha="0.9"
+       
+       android:textSize="20dp"
+          android:textColor="#505050"
+  android:padding="0dp"
+    android:text="Total" />
+    </LinearLayout>
+ <LinearLayout
+ android:layout_width="0dp"
+  android:id="@+id/btn_pay"
+        android:layout_weight="1"  
+        android:background="@drawable/newbackground" 
+    android:layout_height="match_parent"
+    android:layout_marginLeft="4dp"
+     android:orientation="vertical">
+     <ImageView
+
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/payment1" 
+         android:alpha="0.9"
+         android:layout_gravity="center"/>
+    <TextView
+       
+         android:layout_width="wrap_content"
+           android:layout_gravity="center"
+        android:layout_height="match_parent"
+       android:alpha="0.9"
+         android:textColor="#505050"
+         
+        android:textSize="20dp"
+    android:text="Pay" />
+
+</LinearLayout>
+</LinearLayout>
+
+    </LinearLayout>
+   
+</LinearLayout>
+ </ScrollView>
+
+

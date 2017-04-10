@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "in.app.waiter"
+        minSdkVersion 15
+        targetSdkVersion 23
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    lintOptions {
+        // set to true to turn off analysis progress reporting by lint
+        quiet true
+        // if true, stop the gradle build if errors are found
+        abortOnError false
+        // if true, only report errors
+        ignoreWarnings true
+    }
+
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.google.android.gms:play-services:8.3.0'
+    compile 'com.google.code.gson:gson:2.2.2'
+    compile files('libs/android-async-http-1.4.4.jar')
+    compile files('libs/btsdk.jar')
+    compile files('libs/gcm.jar')
+    // compile 'com.android.support:appcompat-v7:23.0.0'
+    // compile 'com.android.support:design:23.0.0'
+    // compile 'com.google.android.gms:play-services-ads:9.2.1'
+    // compile 'com.google.android.gms:play-services-identity:9.2.1'
+    //  compile 'com.google.android.gms:play-services-gcm:9.2.1'
+  //  compile 'com.android.support:support-v4:24.1.1'
+
+    compile 'com.google.code.gson:gson:2.2.2'
+
+}

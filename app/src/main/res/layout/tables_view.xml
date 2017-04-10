@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/panel_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/newbackground"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/txt_line1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textColor="#505050"
+        android:textSize="20dp"
+       />
+
+    
+
+</FrameLayout>

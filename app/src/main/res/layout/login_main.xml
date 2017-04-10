@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F92D2" >
+
+    <Button
+        android:id="@+id/Login_bt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/mybutton"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Login_bt"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:text="Tap on Login to start"
+        android:textColor="#FFFFFF"
+        android:textSize="18dip" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_below="@+id/lblMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/table_hd" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="Get started!"
+        android:textColor="#FFFFFF"
+        android:textSize="27dip" />
+
+    <TextView
+        android:id="@+id/lblMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal"
+        android:text="WaiterApp"
+        android:textColor="#FFFFFF"
+        android:textSize="34dip" />
+
+</RelativeLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.app.waiter"
+    android:versionCode="3"
+    android:versionName="1.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:name="in.app.waiter.Controller"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Register Activity -->
+        <activity
+            android:name="in.app.waiter.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.DELETE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.app.waiter.RegisterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- Main Activity -->
+        <activity
+            android:name="in.app.waiter.ServerRegister"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="in.app.waiter.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="in.app.waiter.newOrderActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="in.app.waiter.DeviceListActivity"
+            android:label="@string/select_device"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="in.app.waiter" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="in.app.waiter.GCMIntentService" />
+        <!-- Register BroadCase Receiver -->
+        <receiver
+            android:name="in.app.waiter.SampleBC"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="in.app.waiter.BillActivity"
+            android:label="@string/title_activity_bill"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="in.app.waiter.PrintMainActivity"
+            android:label="@string/title_activity_print_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="in.app.waiter.PaymentActivity"
+            android:label="@string/title_activity_payment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="in.app.waiter.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="in.app.waiter.AddstaffActivity"
+            android:label="@string/title_activity_addstaff"
+            android:screenOrientation="portrait"  >
+        </activity>
+        <activity
+            android:name="in.app.waiter.AddPrinterActivity"
+            android:label="@string/title_activity_add_printer" 
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+    <!-- GCM connects to Internet Services. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="in.app.waiter.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="in.app.waiter.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Network State Permissions to detect Internet status -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+</manifest>

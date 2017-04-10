@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:paddingBottom="15dp">
+<FrameLayout
+	
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingTop="10dp"
+	android:paddingLeft="15dp"
+	android:paddingRight="15dp"
+	android:paddingBottom="10dp"
+		android:background="#DCE1E3"
+	>
+	   <Button
+          android:id="@+id/add_printer"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="#505050"
+          android:layout_centerHorizontal="true"
+         android:textSize="16dip"
+          android:background="@drawable/newbackground"
+          android:text="ADD PRINTER"
+          android:textStyle="bold"
+          />
+   
+</FrameLayout>
+    <RelativeLayout
+
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="match_parent"
+	android:layout_alignParentLeft="true"
+	android:background="#DCE1E3">
+
+    <ListView
+		android:id="@+id/printer_listView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:listSelector="@android:color/transparent"
+		android:cacheColorHint="@android:color/transparent"
+		android:divider="@null"
+		android:dividerHeight="10dp" />
+    <TextView
+    android:id="@+id/emptytext"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerInParent="true"
+    android:layout_margin="80dp"
+    android:gravity="center"
+    android:alpha="0.6"
+    android:visibility="gone"
+    android:text="Tap ADD PRINTER to add Printer"
+    android:textColor="#DCE1E3"
+    android:textSize="16dp" />
+</RelativeLayout>
+</LinearLayout>
+<!-- 
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#e2e4fe">
+
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@android:color/transparent"
+		android:cacheColorHint="@android:color/transparent"
+		android:divider="@null"
+		
+         >
+    </ExpandableListView>
+
+</LinearLayout>
+ -->

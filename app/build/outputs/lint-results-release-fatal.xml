@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 25.2.3">
+
+    <issue
+        id="WrongCall"
+        severity="Fatal"
+        message="Suspicious method call; should probably call &quot;`layout`&quot; rather than &quot;`onLayout`&quot;"
+        category="Correctness"
+        priority="6"
+        summary="Using wrong draw/layout method"
+        explanation="Custom views typically need to call `measure()` on their children, not `onMeasure`. Ditto for onDraw, onLayout, etc."
+        errorLine1="                this.onLayout(false, getLeft(), getTop(), getRight(), getBottom());"
+        errorLine2="                     ~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/media/astics/F088C5DC88C5A208/MyWaiterApp/WaiterApp/app/src/main/java/com/etsy/android/grid/ExtendableListView.java"
+            line="2172"
+            column="22"/>
+    </issue>
+
+</issues>

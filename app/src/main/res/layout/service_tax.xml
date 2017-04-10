@@ -1,0 +1,244 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#DCE1E3"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F92D2"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/service_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="Service Charge"
+            
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </RelativeLayout>
+             <LinearLayout
+         android:id="@+id/linearType"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+           android:background="@drawable/item_back_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+             android:alpha="0.8"
+             android:text="Type"
+             
+             android:textColor="#505050"
+             android:textSize="20dp"/>
+
+         <TextView
+             android:id="@+id/ettype"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+              android:layout_marginBottom="15dp"
+             android:layout_marginLeft="5dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+             android:background="@null"
+             android:clickable="false"
+             android:cursorVisible="false"
+               android:ems="15"
+             android:focusableInTouchMode="false"
+            android:gravity="right"
+             android:hint="Enter here"
+              android:text="Percentage"
+             android:textColor="#505050"
+             android:textSize="20dp" />
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+          
+             
+            
+              android:background="@drawable/item_back_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="10dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+             android:text="Name"
+             android:textColor="#505050"
+             android:textSize="20dp" 
+              />
+
+         <EditText
+             android:id="@+id/Service_Name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+              android:layout_marginBottom="15dp"
+             android:layout_marginLeft="5dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+             android:background="#ffffff"
+             android:ems="15"
+              android:gravity="right"
+             android:hint="FE: Service Tax"
+              android:text="Service Charge"
+             android:textColor="#505050"
+             android:textSize="20dp" />
+     </LinearLayout>
+        <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+ 
+             
+              android:background="@drawable/item_back_selector"
+         android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+              android:layout_marginLeft="10dp"
+             android:layout_marginRight="15dp"
+              android:layout_marginTop="15dp"
+             android:text="Quantity"
+             android:textColor="#505050"
+             android:textSize="20dp"
+                />
+
+         <EditText
+             android:id="@+id/service_Quantity"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginBottom="15dp"
+             android:layout_marginLeft="5dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+             android:background="@null"
+             android:ems="15"
+             android:gravity="right"
+              android:hint="0.00"
+              android:inputType="numberDecimal"
+             android:textColor="#505050"
+             android:textSize="20dp" >
+             <requestFocus></requestFocus>
+             </EditText>
+     </LinearLayout>
+
+<LinearLayout
+     android:id="@+id/linspinner1"
+    android:layout_width="fill_parent"
+    android:layout_height="58dp"
+    android:background="@drawable/item_back_selector"
+    android:orientation="horizontal" >
+
+         <TextView
+             
+              android:layout_width="0dp"
+        android:layout_height="wrap_content"
+             android:layout_marginBottom="15dp"
+             android:layout_marginLeft="10dp"
+              android:layout_marginRight="15dp"
+             android:layout_marginTop="15dp"
+              android:layout_weight="2"
+             android:text="Quantity type"
+             android:textColor="#505050"
+             android:textSize="20dp"
+                />
+
+         <Spinner
+             android:id="@+id/spinner1"
+               android:layout_width="0dp"
+        android:layout_height="fill_parent"
+             android:layout_alignParentRight="true"
+             android:layout_gravity="right"
+             android:layout_marginLeft="5dp"
+             android:layout_weight="1"
+             android:background="@drawable/item_back_selector"
+        
+             
+             android:gravity="right"
+            />
+         
+     </LinearLayout>
+   
+        <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   >
+
+    <RelativeLayout
+        android:id="@+id/Rel_Cancel_item_btn"
+          android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".50"
+        android:background="@drawable/btn_back_selector"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+         android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+             android:textColor="#505050"
+            android:textSize="20dp"
+
+           />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Rel_add_item_btn"
+        android:layout_width="0dp"
+          android:layout_height="match_parent"
+        android:layout_weight=".50"
+         android:background="@drawable/btn_back_selector"
+          android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+       
+        android:paddingTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="Save"
+             android:textColor="#505050"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
+    
+
+</LinearLayout>

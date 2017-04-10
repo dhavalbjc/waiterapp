@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:id="@+id/ln"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+     >
+   <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:paddingLeft="10dp"
+		android:paddingTop="5dp"
+		android:paddingBottom="5dp"
+		android:paddingRight="5dp"
+    android:orientation="vertical"
+     >
+      
+<com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/grid_TableName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textColor="#505050"
+        />
+<com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/grid_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:textSize="12dp"
+         android:textColor="#505050"
+        />
+    <!--  #505050 android:textColor="#747474" android:textColor="#969696" -->
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="0.5dp"
+    android:layout_marginTop="2sp"
+     android:layout_marginBottom="5sp"
+    android:background="@android:color/darker_gray"/>
+    <com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/grid_Tableitems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#747474"
+        android:textSize="15dp"/>
+    <com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/sc_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#747474"
+        android:paddingTop="10dp"
+        android:text="second course"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="15dp"/>
+    <View
+        android:id="@+id/sc_header_btm"
+    android:layout_width="fill_parent"
+    android:layout_height="0.5dp"
+    android:layout_marginTop="2sp"    
+    android:background="@android:color/darker_gray"/>
+      <com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/grid_Tableitems2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#747474"
+        android:textSize="15dp"/>
+       <com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/tc_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#747474"
+        android:paddingTop="10dp"
+        android:text="third course"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="15dp"/>
+    <View
+        android:id="@+id/tc_header_btm"
+    android:layout_width="fill_parent"
+    android:layout_height="0.5dp"
+    android:layout_marginTop="2sp"  
+      
+    android:background="@android:color/darker_gray"/>
+     <com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/grid_Tableitems3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#747474"
+        android:textSize="15dp"/>
+     <View
+    android:layout_width="fill_parent"
+    android:layout_height="0.5dp"
+    android:layout_marginTop="5sp"
+    
+    android:background="@android:color/darker_gray"/>
+     <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp" >
+     
+     <com.etsy.android.grid.util.DynamicHeightTextView
+         android:id="@+id/user"
+         android:layout_width="80dp"
+         android:layout_height="wrap_content"
+         android:textColor="#747474"
+         android:layout_weight="0.4"
+         android:singleLine="true"
+         android:text="user"
+         android:textSize="14.5dp"
+          />
+
+      <com.etsy.android.grid.util.DynamicHeightTextView
+          android:id="@+id/grid_total"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_gravity="right"
+           android:layout_centerVertical="true"
+          android:layout_weight="0.6"
+          android:text="Total"
+          android:textSize="15dp"
+          android:textColor="#747474" />
+
+      </RelativeLayout>
+    
+</LinearLayout>
+ <View
+     android:id="@+id/payment_view"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="2sp"
+    android:layout_marginBottom="0sp"
+    
+    android:background="@android:color/darker_gray"/>
+<LinearLayout
+    android:id="@+id/payment_lay"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp" >
+
+    <Button
+        android:id="@+id/btn_print"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+       
+       android:minHeight="0dp"
+      android:minWidth="1dp"
+       android:layout_height="match_parent"
+        android:background="@drawable/mybutton"
+          android:layout_marginRight="2dp"
+       android:textSize="13dp"
+        
+  android:padding="0dp"
+    android:text="Print" />
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+      android:minHeight="0dp"
+      android:minWidth="1dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/mybutton"
+          android:layout_marginLeft="2dp"
+        android:textSize="13dp"
+    android:text="Pay" />
+
+
+</LinearLayout>
+</LinearLayout>

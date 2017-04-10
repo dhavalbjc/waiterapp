@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:paddingBottom="8dp">
+<FrameLayout
+	
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingTop="10dp"
+	android:paddingLeft="8dp"
+	android:paddingRight="8dp"
+		android:background="#DCE1E3"
+	>
+    <RelativeLayout
+           android:id="@+id/menu_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:paddingTop="12dp"
+		android:paddingBottom="12dp"
+        android:orientation="vertical"
+        android:background="@drawable/card_background_selector" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"           
+            android:layout_centerInParent="true"
+            android:text="Add New Category"
+            android:textSize="18dip"
+            android:alpha="0.5"
+            android:textStyle="bold"
+           
+             />
+<ImageView
+        android:id="@+id/menu_add_button"
+           android:layout_width="50dp" 
+		
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:alpha="0.5"
+      
+        android:src="@drawable/add_item" />
+        
+    </RelativeLayout>
+</FrameLayout>
+    <RelativeLayout
+
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignParentLeft="true"
+	android:background="#DCE1E3">
+
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent" >
+    </ExpandableListView>
+
+<TextView
+    android:id="@+id/empty"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_centerVertical="true"
+    android:layout_margin="50dp"
+    android:gravity="center"
+    android:alpha="0.8"
+     android:layout_centerInParent="true"
+    android:text="Tap Add New Category to add Category"
+    android:textColor="#505050"
+    android:textSize="16dp" />
+
+</RelativeLayout>
+</LinearLayout>
+<!-- 
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#e2e4fe">
+
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@android:color/transparent"
+		android:cacheColorHint="@android:color/transparent"
+		android:divider="@null"
+		
+         >
+    </ExpandableListView>
+
+</LinearLayout>
+ -->

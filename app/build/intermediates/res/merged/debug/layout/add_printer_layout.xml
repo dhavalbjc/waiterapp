@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="15dp"
+	android:paddingRight="15dp"
+	android:descendantFocusability="beforeDescendants"
+
+	>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/staff_card_background_selector"
+    android:descendantFocusability="afterDescendants"
+    android:paddingBottom="0dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="0dp" >
+
+		<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:src="@drawable/printer2" />
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dp"
+		android:paddingTop="15dp"
+		android:paddingBottom="15dp"
+		android:paddingRight="15dp"
+		
+		android:descendantFocusability="afterDescendants">
+
+		<TextView
+			android:id="@+id/line1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18dp"
+			 android:textColor="#505050"
+			android:text="Text line 1"/>
+
+		<TextView
+			android:id="@+id/line2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Text line 2"
+			 android:textColor="#505050"
+			android:alpha="0.7"/>
+
+	</LinearLayout>
+
+	
+</LinearLayout>
+</FrameLayout>

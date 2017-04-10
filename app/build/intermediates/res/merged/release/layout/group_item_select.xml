@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     
+        android:background="#454545"
+        android:gravity="center_vertical|center_horizontal"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F92D2"
+        android:paddingLeft="40dip"
+        android:paddingRight="40dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+          android:id="@+id/tv_cat_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="Category Name"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+          <RelativeLayout
+       android:id="@+id/Rel_add__new_item"
+      android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:paddingRight="10dp"
+		android:background="@drawable/item_back_selector" >
+       
+        <TextView 
+            
+            
+           android:textColor="#505050"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+           android:textSize="20dp"
+            android:layout_centerInParent="true"
+            android:text="Add new item "
+           
+         
+          />
+         </RelativeLayout>
+         <RelativeLayout
+      android:id="@+id/Rel_cat_rename"
+      android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:paddingRight="10dp"
+		android:background="@drawable/item_back_selector" >
+       
+        <TextView 
+     
+            
+           android:textColor="#505050"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:textSize="20dp"
+            
+            android:layout_centerInParent="true"
+            android:text="Rename"
+           
+         
+            />
+         </RelativeLayout>
+         <RelativeLayout
+      android:id="@+id/Rel_cat_addnewextra"
+      android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:paddingRight="10dp"
+		android:background="@drawable/item_back_selector" >
+       
+        <TextView 
+     
+            
+           android:textColor="#505050"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:textSize="20dp"
+            
+            android:layout_centerInParent="true"
+            android:text="Add new extra"
+           
+         
+            />
+         </RelativeLayout>
+           <RelativeLayout
+      android:id="@+id/Rel_cat_reorder_cat"
+      android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:paddingRight="10dp"
+		android:background="@drawable/item_back_selector" >
+       
+        <TextView 
+     
+            
+           android:textColor="#505050"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:textSize="20dp"
+            
+            android:layout_centerInParent="true"
+            android:text="Reorder category"
+           
+         
+            />
+         </RelativeLayout>
+<RelativeLayout
+      android:id="@+id/Rel_cat_reorderitem"
+      android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:paddingRight="10dp"
+		android:background="@drawable/item_back_selector" >
+       
+        <TextView 
+     
+            
+           android:textColor="#505050"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:textSize="20dp"
+            
+            android:layout_centerInParent="true"
+            android:text="Reorder item"
+           
+         
+            />
+         </RelativeLayout>
+          
+    <RelativeLayout
+      android:id="@+id/Rel_cat_delete"
+      android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:paddingRight="10dp"
+		android:background="@drawable/item_back_selector" >
+       
+        <TextView 
+     
+            
+           android:textColor="#505050"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:textSize="20dp"
+            
+            android:layout_centerInParent="true"
+            android:text="Delete"
+           
+         
+            />
+         </RelativeLayout>
+
+        <!-- 
+    
+    <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#454545"/>
+
+     -->
+
+   
+   
+</LinearLayout>

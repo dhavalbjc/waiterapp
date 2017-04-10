@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	 android:clickable="false"
+
+	android:focusable="false"
+	android:orientation="horizontal"
+	android:weightSum="100"
+	>
+
+<RelativeLayout
+   
+    android:layout_width="0sp"
+    android:layout_height="wrap_content"
+    android:layout_weight="15"
+    android:clickable="false"
+    android:focusable="false" android:orientation="vertical"
+	android:paddingRight="4sp">
+
+    <com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/txt_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+       android:singleLine="true"
+        android:text="10"
+         android:textColor="#747474"
+
+	        android:textSize="15sp"
+	        />
+	    
+	     </RelativeLayout>
+	<RelativeLayout	   
+			android:layout_width="0sp"
+		android:layout_height="wrap_content"
+		 android:layout_weight="72"
+		android:clickable="false"
+	android:focusable="false">	
+<LinearLayout
+
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	 android:clickable="false"
+	android:focusable="false"
+	android:orientation="vertical"
+	>
+	<com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/txt_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="item 1"
+        android:textColor="#747474"
+        android:textSize="15sp"/>
+	<com.etsy.android.grid.util.DynamicHeightTextView
+        android:id="@+id/txt_extra_buf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="extra 2"
+       
+        android:textColor="#747474"
+         android:textSize="15sp" />
+	 
+	     
+	        
+
+	        <!--  android:textAppearance="?android:attr/textAppearanceLarge"-->
+	        
+	   </LinearLayout>
+
+	</RelativeLayout>
+	<RelativeLayout
+	    android:id="@+id/Rel_status_img"
+		android:layout_width="0sp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		 android:layout_weight="10"
+		android:clickable="false"
+		
+	android:focusable="false"
+	android:orientation="vertical"
+		
+		>
+	      <com.etsy.android.grid.util.DynamicHeightImageView
+            android:id="@+id/img_status"
+            android:layout_width="16sp"
+            android:layout_height="16sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+           android:alpha="0.6"
+           
+            android:src="@drawable/ic_launcher" />
+	     </RelativeLayout>
+
+</LinearLayout>

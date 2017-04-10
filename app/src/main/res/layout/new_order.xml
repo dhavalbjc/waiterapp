@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+      <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/Rel_New_order"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+      
+       android:background="#DCE1E3"
+      android:orientation="vertical"
+		android:paddingBottom="0dp"
+		android:paddingLeft="8dp"
+		android:paddingRight="8dp"
+		android:paddingTop="10dp">
+
+ <Button
+          android:id="@+id/btn_New_order"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+          android:background="@drawable/newbackground"
+          android:text="New Order"
+          android:textColor="#505050"
+          android:textSize="18dip"
+           android:textStyle="bold"
+           />
+ </RelativeLayout>
+
